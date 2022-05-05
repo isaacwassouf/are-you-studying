@@ -1,0 +1,13 @@
+{
+    "name": "Are You Studying?",
+    "manifest_version": 3,
+    "version": "1.0",
+    "permissions": ["tabs","tts","storage","management"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
